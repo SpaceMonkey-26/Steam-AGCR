@@ -81,14 +81,14 @@ function getOwnedGames() {
 	const games = json.response.games || [];
 
   const sharedGames = [
-    { name: "Alba: A Wildlife Adventure", appid: 1337010, playtime: "N/A", earned: 9, total: 9, percent: 1 },
-    { name: "Assemble with Care", appid: 1202900, playtime: "N/A", earned: 14, total: 14, percent: 1 },
+    { name: "Alba: A Wildlife Adventure", appid: 1337010, playtime: 2.5, earned: 9, total: 9, percent: 1 },
+    { name: "Assemble with Care", appid: 1202900, playtime: 1.1, earned: 14, total: 14, percent: 1 },
     { name: "Cat Cafe Manager", appid: 1354830, playtime: "N/A", earned: 62, total: 62, percent: 1 },
-    { name: "Garden Story", appid: 1062140, playtime: "N/A", earned: 21, total: 21, percent: 1 },
+    { name: "Garden Story", appid: 1062140, playtime: 20.7, earned: 21, total: 21, percent: 1 },
     { name: "Slime Rancher", appid: 433340, playtime: "N/A", earned: 57, total: 57, percent: 1 },
-    { name: "Witchy Life Story", appid: 1427340, playtime: "N/A", earned: 26, total: 26, percent: 1 },
-    { name: "Lemon Cake", appid: 1338330, playtime: "N/A", earned: 2, total: 17, percent: 0.1176 },
-    { name: "Here Comes Niko!", appid: 925950, playtime: "N/A", earned: 2, total: 7, percent: 0.2857 }
+    { name: "Witchy Life Story", appid: 1427340, playtime: 13.4, earned: 26, total: 26, percent: 1 },
+    { name: "Lemon Cake", appid: 1338330, playtime: 1.7, earned: 3, total: 17, percent: 0.1765 },
+    { name: "Here Comes Niko!", appid: 925950, playtime: 3.2, earned: 1, total: 7, percent: 0.1429 }
   ]
   
 	const data = [["Game", "App ID", "Playtime (hours)", "Earned", "Total", "Percent"]];
